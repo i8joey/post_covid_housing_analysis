@@ -10,24 +10,13 @@ def get_quarterly(data_path, date_column):
     df_quarterly['year'] = df_quarterly.index.year
     return df_quarterly
 
-def get_date(data_path):
-    df = pd.read_csv(data_path)
-    df = df.rename(columns={'day_endofweek': 'day'})
-    df['date'] = pd.to_datetime(df[['year', 'month', 'day']])
-    df = df.set_index('date')
-    df_quarterly = df.resample('QE').mean()
-    df_quarterly['quarter'] = df_quarterly.index.quarter
-    df_quarterly['year'] = df_quarterly.index.year
-    return df_quarterly
-
-
 mortgage_df = get_quarterly('data/30yr_mortgage.csv', 'observation_date')
 mortgage_df.to_csv('data/cleaned_mortgage.csv', index=True)
 
 unemployment_df = get_quarterly('data/unemployment_rate.csv', 'observation_date')
 unemployment_df.to_csv('data/cleaned_unemployment_rate.csv', index=True)
 
-job_posting_df = get_date('data/job_postings.csv')
+job_posting_df = get_quarterly('data/job_postings.csv', 'observation_date')
 job_posting_df.to_csv('data/cleaned_job_posting.csv', index=True)
 
 

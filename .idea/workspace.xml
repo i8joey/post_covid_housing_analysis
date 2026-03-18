@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f172afa-bbf1-4a15-aeb0-0287667c863c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/post_covid_housing_analysis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/30yr_mortgage.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avg_housing_prices.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/job_postings.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/unemployment_rate.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_cleaning.py" afterDir="false" />
+    <list default="true" id="2f172afa-bbf1-4a15-aeb0-0287667c863c" name="Changes" comment="Clean and standardize datasets to quarterly frequency">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cleaned_job_posting.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/job_postings.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/job_postings.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_cleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_cleaning.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "i8joey"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/i8joey/post_covid_housing_analysis.git&quot;,
+    &quot;accountId&quot;: &quot;fee623fc-6d9b-45ef-9e16-6810dce15701&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3AoDRjjJnN02w4jPwegKt9Pusbt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,6 +50,7 @@
   "keyToString": {
     "Python.data_cleaning.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -74,8 +81,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773250023548</updated>
-      <workItem from="1773250024570" duration="3347000" />
+      <workItem from="1773250024570" duration="3756000" />
+      <workItem from="1773853345265" duration="1641000" />
     </task>
+    <task id="LOCAL-00001" summary="Clean and standardize datasets to quarterly frequency">
+      <option name="closed" value="true" />
+      <created>1773253479680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773253479680</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Clean and standardize datasets to quarterly frequency">
+      <option name="closed" value="true" />
+      <created>1773253528286</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773253528286</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,7 +117,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Clean and standardize datasets to quarterly frequency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean and standardize datasets to quarterly frequency" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/post_covid_housing_analysis$data_cleaning.coverage" NAME="data_cleaning Coverage Results" MODIFIED="1773253315477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/post_covid_housing_analysis$data_cleaning.coverage" NAME="data_cleaning Coverage Results" MODIFIED="1773854348677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
