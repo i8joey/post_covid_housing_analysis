@@ -21,3 +21,6 @@ Key Findings
 - 2023 saw the highest price drop, aligning with aggressive Fed 
   rate hikes pushing mortgage rates above 7%
 - Job openings peaked in 2022 before declining alongside home prices
+
+Visualizations
+https://public.tableau.com/views/housing_analysis/Dashboard1?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
