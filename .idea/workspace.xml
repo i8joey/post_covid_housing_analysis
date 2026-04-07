@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f172afa-bbf1-4a15-aeb0-0287667c863c" name="Changes" comment="Clean and standardize datasets to quarterly frequency">
+      <change afterPath="$PROJECT_DIR$/queries/01_largest_price_jump.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queries/02_largest_price_drop.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queries/03_ranked_price_changes.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queries/04_job_posts_vs_unemployment_rate_year.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queries/05_housing_price_vs_employment_rate_year.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queries/06_job_posts_vs_price_changes.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cleaned_job_posting.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/job_postings.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/job_postings.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_cleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_cleaning.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "i8joey"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;i8joey&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/i8joey/post_covid_housing_analysis.git&quot;,
@@ -46,22 +49,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.data_cleaning.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.data_cleaning.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Joseph\PycharmProjects\post_covid_housing_analysis\queries" />
       <recent name="C:\Users\Joseph\PycharmProjects\post_covid_housing_analysis\data" />
     </key>
   </component>
@@ -83,6 +87,9 @@
       <updated>1773250023548</updated>
       <workItem from="1773250024570" duration="3756000" />
       <workItem from="1773853345265" duration="1641000" />
+      <workItem from="1773859552425" duration="27000" />
+      <workItem from="1775408689215" duration="25000" />
+      <workItem from="1775526648632" duration="1968000" />
     </task>
     <task id="LOCAL-00001" summary="Clean and standardize datasets to quarterly frequency">
       <option name="closed" value="true" />
@@ -100,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773253528286</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Clean and standardize datasets to quarterly frequency">
+      <option name="closed" value="true" />
+      <created>1773859562528</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773859562528</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
