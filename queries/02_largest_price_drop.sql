@@ -12,6 +12,6 @@ WHERE qoq_price_change IS NOT NULL
 ORDER BY qoq_price_change ASC
 LIMIT 1
 
-
+-- $13,600 drop from previous quarter with mortgage rates at 6.37%
 
 
