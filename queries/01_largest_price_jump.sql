@@ -11,6 +11,6 @@ SELECT year, quarter, qoq_price_change, MORTGAGE30US FROM price_changes
 ORDER BY qoq_price_change DESC
 LIMIT 1
 
-
+--$27,400 increase from previous quarter with mortgage rates at 2.87% 
 
 
