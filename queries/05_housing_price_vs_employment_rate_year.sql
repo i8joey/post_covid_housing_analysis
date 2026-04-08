@@ -9,5 +9,6 @@ ORDER BY h.year, h.quarter)
 SELECT year, ROUND(AVG(MSPUS), 2) AS avg_housing_price, ROUND(AVG(UNRATE), 2) AS avg_unemployment_rate FROM housing
 GROUP BY year
 
-
+-- Unemployment and housing prices tracked together, prices corrected after 2022 while unemployment stayed low
+-- points to mortgage rates for correction
 
