@@ -10,6 +10,6 @@ FROM housing)
 
 SELECT year, quarter, price_change, DENSE_RANK() OVER(ORDER BY price_change DESC) AS price_rank FROM price_changes
 
-
+-- 2021 had the highest concentration of price surges
 
 
